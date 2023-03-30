@@ -12,10 +12,8 @@ body {
 }
 
 .all {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  display: block;
+  margin-top: 10vh;
 }
 
 .input {
@@ -25,8 +23,6 @@ body {
   border-style: none;
   border-radius: 20px;
 }
-
-
 
 @media screen and (min-width: 480px) {
   .search input {
@@ -38,14 +34,46 @@ body {
     background: #f2f2f2;
     padding: 12px;
     border-radius: 3px;
-    width: 40vw;
-    font-size: 14px;
+    height: 5vh;
+    width: 50vw;
+    font-size: 20px;
     border-radius: 100px;
   }
-  img{
+
+  img {
     width: 35vh;
     height: 35vh;
   }
+  .res {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
+    width: 50vw;
+    height: auto;
+    max-height: 60vh;
+    overflow-wrap: normal; 
+    overflow: scroll;
+    background-color: rgba(2, 36, 36, 0.621);
+    margin-top: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    border-radius: 20px;
+  }
+  /* .response { */
+    /* height: 30vh; */
+    /* width: 100%; */
+    /* inline-size: 50vw; */
+    /* border-style: dotted; */
+    /* overflow-wrap: normal; */
+    /* overflow: scroll; */
+    /* height: 30vh; */
+    /* background-color: rgba(1, 14, 27, 0.679); */
+    /* color: rgb(255, 255, 255); */
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* border-radius: 20px; */
+  /* } */
 }
 @media screen and (max-width: 479px) {
   .search input {
@@ -62,15 +90,27 @@ body {
     font-size: 14px;
     border-radius: 100px;
   }
-  img{
+  img {
     width: 40vw;
     height: 40vw;
   }
-  .all {
-    position: fixed;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
+  .res {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    overflow-wrap: normal; 
+    overflow: scroll;
+    background-color: aqua;
+    margin-top: 10px;
+    background-color: rgba(2, 36, 36, 0.621);
+    color: antiquewhite;
+    border-radius: 20px;
+    padding:1px;
+   
   }
 }
 
@@ -86,8 +126,27 @@ button {
   margin-top: 2vh;
   font-size: large;
 }
-button:hover{
+button:hover {
   background-color: rgba(210, 67, 15, 0.966);
   border: 0.005ch;
   border-style: solid;
+}
+.mute {
+  background-color: #f2f2f2;
+}
+.ok {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  padding: 2px;
+}
+
+.mute :hover {
+  background-color: rgba(255, 4, 4, 0.437);
 }
