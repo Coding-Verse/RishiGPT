@@ -52,7 +52,7 @@ body {
     width: 50vw;
     height: auto;
     max-height: 60vh;
-    overflow-wrap: normal; 
+    overflow-wrap: normal;
     overflow: scroll;
     background-color: rgba(2, 36, 36, 0.621);
     margin-top: 10px;
@@ -61,18 +61,18 @@ body {
     border-radius: 20px;
   }
   /* .response { */
-    /* height: 30vh; */
-    /* width: 100%; */
-    /* inline-size: 50vw; */
-    /* border-style: dotted; */
-    /* overflow-wrap: normal; */
-    /* overflow: scroll; */
-    /* height: 30vh; */
-    /* background-color: rgba(1, 14, 27, 0.679); */
-    /* color: rgb(255, 255, 255); */
-    /* padding: 10px; */
-    /* margin: 10px; */
-    /* border-radius: 20px; */
+  /* height: 30vh; */
+  /* width: 100%; */
+  /* inline-size: 50vw; */
+  /* border-style: dotted; */
+  /* overflow-wrap: normal; */
+  /* overflow: scroll; */
+  /* height: 30vh; */
+  /* background-color: rgba(1, 14, 27, 0.679); */
+  /* color: rgb(255, 255, 255); */
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* border-radius: 20px; */
   /* } */
 }
 @media screen and (max-width: 479px) {
@@ -102,15 +102,14 @@ body {
     width: 100%;
     height: auto;
     max-height: 80vh;
-    overflow-wrap: normal; 
+    overflow-wrap: normal;
     overflow: scroll;
     background-color: aqua;
     margin-top: 10px;
     background-color: rgba(2, 36, 36, 0.621);
     color: antiquewhite;
     border-radius: 20px;
-    padding:1px;
-   
+    padding: 1px;
   }
 }
 
@@ -131,9 +130,12 @@ button:hover {
   border: 0.005ch;
   border-style: solid;
 }
-.mute {
-  background-color: #f2f2f2;
-}
+/* .mute { */
+/* background-color: #f2f2f2; */
+/* } */
+/* .mute :hover { */
+/* background-color: rgba(255, 4, 4, 0.437); */
+/* } */
 .ok {
   position: fixed;
   width: 35px;
@@ -145,8 +147,4 @@ button:hover {
   margin-bottom: 20px;
   border-radius: 100px;
   padding: 2px;
-}
-
-.mute :hover {
-  background-color: rgba(255, 4, 4, 0.437);
 }
