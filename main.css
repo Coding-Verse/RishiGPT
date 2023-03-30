@@ -3,6 +3,12 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
+  background: rgb(235, 96, 29);
+  background: linear-gradient(
+    90deg,
+    rgb(244, 196, 48) 0%,
+    rgb(187, 99, 12) 100%
+  );
 }
 
 .all {
@@ -20,6 +26,8 @@ body {
   border-radius: 20px;
 }
 
+
+
 @media screen and (min-width: 480px) {
   .search input {
     border: none;
@@ -34,6 +42,10 @@ body {
     font-size: 14px;
     border-radius: 100px;
   }
+  img{
+    width: 35vh;
+    height: 35vh;
+  }
 }
 @media screen and (max-width: 479px) {
   .search input {
@@ -45,8 +57,20 @@ body {
     background: #f2f2f2;
     padding: 12px;
     border-radius: 3px;
+    font-size: larger;
     width: 60vw;
     font-size: 14px;
+    border-radius: 100px;
+  }
+  img{
+    width: 40vw;
+    height: 40vw;
+  }
+  .all {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -57,7 +81,13 @@ button {
   -moz-appearance: none;
   appearance: none;
   border-radius: 20px;
-  height: 5vh;
-  width: 10vh;
+  height: 7vh;
+  width: 14vh;
   margin-top: 2vh;
+  font-size: large;
+}
+button:hover{
+  background-color: rgba(210, 67, 15, 0.966);
+  border: 0.005ch;
+  border-style: solid;
 }
